@@ -4,8 +4,18 @@ body {
   font-family: sans-serif;
 }
 nav {
-  padding: 100px 40px 0;
+  padding: 50px 50px 0;
   background-color: #5C5959;
+}
+nav > div {
+  margin: 0 0 20px auto;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
 }
 ul {
   list-style: none;
